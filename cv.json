@@ -57,9 +57,10 @@
     "education": [{
       "institution": "Washington State University Tri-cities",
       "url": "https://tricities.wsu.edu/",
+      "title": "Bachelors of Science",
       "area": "Computer Science",
       "studyType": "Bachelor",
-      "startDate": "2018-01-01",
+      "startDate": "2018-02-01",
       "endDate": "2023-01-01"
     }],
     "awards": [{
@@ -83,81 +84,55 @@
     }],
     "skills": [
       {
-        "name": "HTML",
-        "level": "Master",
-        "keywords": [
-          "Desarrollo Web", "Frontend"
-        ]
+        "name": "NUnit",
+        "level": "Intermediate",
+        "keywords": ["Unit Testing", "Automation"]
       },
       {
-        "name": "CSS",
-        "level": "Master",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Diseño Responsive"
-        ]
+        "name": "C#",
+        "level": "Intermediate",
+        "keywords": ["Scripting", "Automation"]
+      },
+      {
+        "name": "Automation Testing",
+        "level": "Intermediate",
+        "keywords": ["Test Scripts", "Continuous Integration"]
+      },
+      {
+        "name": "JIRA",
+        "level": "Advanced",
+        "keywords": ["Project Management", "Workflow Automation"]
+      },
+      {
+        "name": "Azure DevOps",
+        "level": "Intermediate",
+        "keywords": ["Cloud Integration", "Deployment"]
+      },
+      
+      {
+        "name": "Git",
+        "level": "Intermediate",
+        "keywords": ["Git", "SVN"]
       },
       {
         "name": "JavaScript",
+        "level": "Intermediate",
+        "keywords": ["Sprint Planning", "Scrum Meetings"]
+      },
+      {
+        "name": "Manual Testing",
         "level": "Master",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-        ]
+        "keywords": ["Test Execution", "Bug Identification"]
       },
       {
-        "name": "Tailwind",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
-        ]
+        "name": "Test Planning and Design",
+        "level": "Advanced",
+        "keywords": ["Test Strategies", "Requirement Analysis"]
       },
       {
-        "name": "TypeScript",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-        ]
-      },
-      {
-        "name": "Node",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-        ]
-      },
-      {
-        "name": "MySQL",
-        "level": "Avanzado",
-        "keywords": [
-          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-        ]
-      },
-      {
-        "name": "Git",
-        "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente"
-        ]
-      },
-      {
-        "name": "GitHub",
-        "level": "Avanzado",
-        "keywords": [
-          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-        ]
-      },
-      {
-        "name": "Next.js",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-        ]
-      },
-      {
-        "name": "React",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-        ]
+        "name": "Regression Testing",
+        "level": "Advanced",
+        "keywords": ["Test Re-execution", "Defect Verification"]
       }
     ],
     "languages": [
@@ -183,66 +158,64 @@
     }],
     "projects": [
       {
-        "name": "mars.codes",
+        "name": "Project 1",
         "isActive": true,
-        "description": "Historia interactiva con retos de programación para viajar a Marte",
+        "description": "Description for project 1",
         "highlights": [
-          "Elige tu propia aventura",
-          "En desarrollo"
+          "Highlight 1",
+          "Highlight 2"
         ],
-        "url": "https://mars.codes"
+        "url": "https://example.com/project1"
       },
       {
-        "name": "AdventJS",
-        "isActive": true,
-        "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+        "name": "Project 2",
+        "isActive": false,
+        "description": "Description for project 2",
         "highlights": [
-          "+1 millón de visitas",
-          "Multidioma",
-          "JavaScript & TypeScript"
+          "Highlight 1",
+          "Highlight 2"
         ],
-        "url": "https://adventjs.dev"
+        "url": "https://example.com/project2"
       },
       {
-        "name": "Codember",
+        "name": "Project 3",
         "isActive": true,
-        "description": "Juego interactivo de programación con retos y secretos",
+        "description": "Description for project 3",
         "highlights": [
-          "+2000 usuarios activos",
-          "Retos para cualquier lenguaje"
+          "Highlight 1",
+          "Highlight 2"
         ],
-        "url": "https://codember.dev"
+        "url": "https://example.com/project3"
       },
       {
-        "name": "codi.link",
-        "isActive": true,
-        "description": "Playground de código HTML, CSS y JavaScript para compartir",
+        "name": "Project 4",
+        "isActive": false,
+        "description": "Description for project 4",
         "highlights": [
-          "100k visitas al mes",
-          "Desarrollado por la comunidad"
+          "Highlight 1",
+          "Highlight 2"
         ],
-        "url": "https://codi.link",
-        "github": "https://github.com/midudev/codi.link"
+        "url": "https://example.com/project4"
       },
       {
-        "name": "Pruebas Técnicas",
+        "name": "Project 5",
         "isActive": true,
-        "description": "Lista de pruebas técnicas de empresas para practicar programación",
+        "description": "Description for project 5",
         "highlights": [
-          "100% gratuito",
-          "+500 soluciones de la comunidad"
+          "Highlight 1",
+          "Highlight 2"
         ],
-        "url": "https://pruebastecnicas.com",
-        "github": "https://github.com/midudev/pruebas-tecnicas"
+        "url": "https://example.com/project5"
       },
       {
-        "name": "miduConf",
-        "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+        "name": "Project 6",
+        "isActive": false,
+        "description": "Description for project 6",
         "highlights": [
-          "+15k tickets repartidos",
-          "+50k espectadores en directo"
+          "Highlight 1",
+          "Highlight 2"
         ],
-        "url": "https://miduconf.com"
+        "url": "https://example.com/project6"
       }
     ]
   }
