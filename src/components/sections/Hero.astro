@@ -19,6 +19,8 @@ const SOCIAL_ICONS: Record<string, any> ={
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
+
+const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
@@ -30,6 +32,9 @@ const linkedUrl = linkedInfo?.url
                 <WorldMap />
                  {city}, {region}
             </span>
+            <footer class="print">
+                {printInfo}
+            </footer>
             <footer>
                 {
                     email && (
@@ -46,7 +51,7 @@ const linkedUrl = linkedInfo?.url
                 {
                     email && (
                         <a
-                        href={`tel:${phone}`}
+                        href={`phone:${phone}`}
                         title={`Call to ${name} @ ${phone}`}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -102,7 +107,7 @@ const linkedUrl = linkedInfo?.url
     h2{
         color: #363636;
         font-weight: 500;
-        font-size: 1.1rem;
+        font-size: 1.4rem;
         text-wrap: balance;
         font-family:'Courier New', Courier, monospace;
     }
@@ -119,7 +124,7 @@ const linkedUrl = linkedInfo?.url
         display: flex;
         align-items: center;
         gap: 0.25rem;
-        font-size: 0.85rem;
+        font-size: 0.80rem;
         letter-spacing: -0.05rem;
     }
 
@@ -147,6 +152,33 @@ const linkedUrl = linkedInfo?.url
     footer a:hover {
     background: #eee;
     border: 1px solid #ddd;
+  }
+
+  @media (width <= 700px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+
+    .info {
+      justify-content: center;
+      align-items: center;
+      padding-right: 0;
+      text-align: center;
+    }
+
+    figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      text-wrap: balance;
+    }
+
+    figure {
+      margin: 0 auto;
+    }
   }
 
 </style>
